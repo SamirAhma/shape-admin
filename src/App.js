@@ -10,6 +10,7 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Login from "./pages/login/Login";
+import Test from "./pages/test/test";
 
 function App() {
   const admin = JSON.parse(
@@ -19,6 +20,9 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/test">
+          <Test />
+        </Route>
         <Route path="/login">
           <Login />
         </Route>
