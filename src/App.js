@@ -23,101 +23,101 @@ function App() {
       <Route
         path="/"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
 
-                <Home />
-              </div>
-            </>
-          </PrivateRoute>
+              <Home />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       <Route
         path="/users"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
 
-                <UserList />
-              </div>
-            </>
-          </PrivateRoute>
+              <UserList />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       <Route
         path="/user/:userId"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
-                <User />
-              </div>
-            </>
-          </PrivateRoute>
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
+              <User />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       <Route
         path="/newUser"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
-                <NewUser />
-              </div>
-            </>
-          </PrivateRoute>
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
+              <NewUser />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       <Route
         path="/products"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
-                <ProductList />
-              </div>
-            </>
-          </PrivateRoute>
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
+              <ProductList />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       <Route
         path="/product/:productId"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
-                <Product />
-              </div>
-            </>
-          </PrivateRoute>
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
+              <Product />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       <Route
         path="/newproduct"
         element={
-          <PrivateRoute>
-            <>
-              <Topbar />
-              <div className="container">
-                <Sidebar />
-                <NewProduct />
-              </div>
-            </>
-          </PrivateRoute>
+          // <PrivateRoute>
+          <>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
+              <NewProduct />
+            </div>
+          </>
+          // <PrivateRoute>
         }
       />
       {/* {admin && (
